@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import { useNavigate } from "react-router-dom";
 import supabase from "../config/supabaseClient";
 // import OSC from 'osc-js';
@@ -9,7 +9,6 @@ const Create = () => {
   const [title, setTitle] = useState('')
   const [method, setMethod] = useState('')
   const [rating, setRating] = useState('')
-  const [created_at] = useState('')
   const [formError, setFormError] = useState(null)
 
 
