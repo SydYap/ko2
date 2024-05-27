@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Form</Link>
-        <Link to="/create">Created</Link>
+        <Link to="/">Zoekmachine</Link>
+        <Link to="/create">Zoekgeschiedenis</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home/>} />

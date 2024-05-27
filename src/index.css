@@ -41,7 +41,7 @@ form {
   padding: 20px;
   max-width: 480px;
   margin: 0 auto;
-  border-radius: 6px;
+
 }
 form input, form textarea {
   display: block;
@@ -55,7 +55,6 @@ form button {
   background: #57b1ffcb;
   color: #fff;
   border: 0;
-  border-radius: 6px;
   padding: 6px 8px;
   font-family: "Poppins";
   cursor: pointer;
@@ -64,7 +63,7 @@ form button {
 .smoothie-grid {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 40px;
 }
 .smoothie-card {
@@ -72,9 +71,10 @@ form button {
   padding: 10px;
   background: #fff;
   box-sizing: border-box;
-  border-radius: 6px;
   position: relative;
+  color: #ccc;
 }
+
 
 .smoothie-card .rating {
   position: absolute;
